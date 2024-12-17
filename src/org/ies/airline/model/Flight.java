@@ -24,8 +24,15 @@ public class Flight {
     }
 
     public boolean hasPassenger(String nif) {
-
+        for (var passenger : passengers) {
+            if (passenger.getNif().equals(nif)) {
+                return true;
+            }
+        }
+        return false;
     }
+
+    public
     public int getFlightNumber() {
         return flightNumber;
     }
