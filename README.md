@@ -47,7 +47,7 @@ Tendrá un método run() que realice los siguiente:
             - Si existe:
                 - Muestra los datos del pasajero
                 - Pide un número de asiento
-                - Cambia el asiento del pasajeor
+                - Cambia el asiento del pasajero
             - Si no existe muestra un mensaje de error
 
 ### AirlineAppMenu

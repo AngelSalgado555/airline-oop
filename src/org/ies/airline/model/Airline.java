@@ -12,6 +12,20 @@ public class Airline {
         this.flights = flights;
     }
 
+    public Flight findFlight(int number) {
+        for (var flight : flights) {
+            if (flight.getFlightNumber() == number) {
+                return flight;
+            }
+        }
+        return null;
+    }
+
+    public void findPassenger (Passenger passenger) {
+        for (var flight : flights) {
+
+        }
+    }
     public String getName() {
         return name;
     }

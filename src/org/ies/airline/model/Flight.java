@@ -1,6 +1,7 @@
 package org.ies.airline.model;
 
 import java.util.Arrays;
+import java.util.NoSuchElementException;
 import java.util.Objects;
 
 public class Flight {
@@ -18,6 +19,13 @@ public class Flight {
         this.passengers = passengers;
     }
 
+    public void showInfo() {
+        System.out.println("Número de vuelo: " + flightNumber + " Origen: " + origin + " Destino: " + destination + " Puerta: " + gateNumber + " Pasajeros: " + passengers);
+    }
+
+    public boolean hasPassenger(String nif) {
+
+    }
     public int getFlightNumber() {
         return flightNumber;
     }
